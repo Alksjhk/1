@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "randomstatus",
+  "version": "${version}",
+  "name": "Random Status Mod",
+  "description": "A mod that applies random status effects to players every 2 minutes.",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://github.com/yourusername/randomstatus",
+    "sources": "https://github.com/yourusername/randomstatus"
+  },
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.example.randomstatus.RandomStatusMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.3",
+    "fabric-api": ">=0.91.0",
+    "minecraft": "1.20.6"
+  }
+}
